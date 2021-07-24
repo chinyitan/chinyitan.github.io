@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on Chin Yi Tan Personal Website</title>
-    <link>https://chinyitan.github.io/</link>
-    <description>Recent content in Introduction on Chin Yi Tan Personal Website</description>
+    <title>Docs on Chin Yi Tan Personal Website</title>
+    <link>https://chinyitan.github.io/docs/</link>
+    <description>Recent content in Docs on Chin Yi Tan Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://chinyitan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://chinyitan.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://chinyitan.github.io/docs/research/</link>
