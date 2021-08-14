@@ -12,28 +12,19 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chinyitan.github.io/docs/-research/</guid>
-      <description>Research #  Put info about research in the future
-Research Topic Example #  Put something here</description>
+      <description>Research #  I have done research in various field of Physics in the last couple of years.
+Modelling a strong gravitational lenses #  I am currently building an automated pipeline to model 160 strong gravitational lenses using their HST image. The model parameters obtained can be used to determine the inner slope of the dark matter profile in elliptical galaxies and aid in the measurement of the Hubble constant.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://chinyitan.github.io/docs/becoming-a-physicist/</link>
+      <link>https://chinyitan.github.io/docs/physics-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chinyitan.github.io/docs/becoming-a-physicist/</guid>
-      <description>Research #  Put info about research in the future
-Research Topic Example #  Put something here</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://chinyitan.github.io/docs/world-coins/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinyitan.github.io/docs/world-coins/</guid>
-      <description>Research #  Put info about research in the future
-Research Topic Example #  Put something here</description>
+      <guid>https://chinyitan.github.io/docs/physics-notes/</guid>
+      <description>Physics Notes #  I plan to rederived the main equations in physics from experiments. Topics I plan to cover includes:
+ Classical Mechanics Electromagnetism and Light Atomic Theory and Thermal Physics Special and General Relativity Quantum Mechanics  In the mean time, here is a picture of Torchic, the fire chick Pokemon.
+ </description>
     </item>
     
   </channel>
