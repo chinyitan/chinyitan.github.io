@@ -42,9 +42,10 @@
           </h2>
           <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#research">Research</a></li>
             <li><a href="#cv">CV</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#zooniverse">Zooniverse</a></li>
+
           </ul>
         </nav>
       </div>
@@ -64,42 +65,70 @@
       <article class="markdown" id="top">
         <section id="about">
           <h1>Chin Yi Tan&rsquo;s Personal Website</h1>
-          <p>Hi there, welcome to my website. I am Chin Yi Tan, a Malaysian Physics PhD student studying at the University of Chicago.</p>
-          <figure><img src="/profile.jpeg" width="250" height="250" alt="Photo of Chin Yi Tan"/></figure>
-        </section>
+          <p> Hi there, and welcome to my website! I’m Chin Yi Tan, a DiRAC Astrophysics Postdoctoral Fellow at the University of Washington in Seattle (as of Oct 2026). I grew up in Puchong, Malaysia, completed my undergraduate studies at the University of Edinburgh, and earned my Ph.D. at the University of Chicago. </p>
 
-        <section id="research">
-          <h1>Research</h1>
-          <p>I have done research in various fields of physics such as astrophysics, biophysics and particle physics in the last couple of years.</p>
+          <figure><img src="/profile.jpg" width="250" height="250" alt="Photo of Chin Yi Tan"/></figure>
 
-          <h2 id="modelling-a-strong-gravitational-lenses">Modelling strong gravitational lenses</h2>
-          <p>I am currently building an automated pipeline to model 160 strong gravitational lenses using their HST images.
-          The model parameters obtained can be used to determine the inner slope of the dark matter profile in elliptical galaxies and aid in the measurement of the Hubble constant.</p>
+           <p>My research explores the structures surrounding our Milky Way, especially its satellite galaxies. I use these tiny galaxies to investigate the nature of dark matter, the mysterious substance that shapes galaxies and the growth of structure in the Universe. </p>
 
-          <h2 id="probing-the-properties-of-machos-with-ultra-faint-galaxies">Probing the Properties of MACHOs with Ultra Faint Galaxies</h2>
-          <p>I used the existence of a globular cluster in the dwarf galaxy Eridanus II to make theoretical constraints on dark matter.
-          Using stochastic methods of tidal heating and the Superbox simulation, I estimated the lifespan of the cluster before it dissolves into the host galaxy and used it to obtain constraints on the abundance of Massive Compact Halo Objects (MACHOs).</p>
-
-          <h2 id="finding-the-structure-function-mapping-of-polysaccharide-degrading-communities">Finding the structure-function mapping of polysaccharide degrading communities</h2>
-          <p>I am also creating models which can predict the metabolism of multiple-strain communities with different carbon sources using the respiration rate of a single bacterial strain.
-          The respiration rate of the community is obtained through a custom-built setup that performs multiple pressure measurements in parallel.</p>
-
-          <h2 id="testing-photomultiplier-tubes-for-the-watchman-detector">Testing photomultiplier tubes for the WATCHMAN detector</h2>
-          <p>I participated in building a data acquisition system that can be used to test the efficiency of hundreds of photomultiplier tubes for use in an anti-neutrino detector.</p>
-
-          <h2 id="testing-water-based-scintillators-for-future-neutrino-detectors">Testing water-based scintillators for future neutrino detectors</h2>
-          <p>I investigated the optical properties and stability of Linear Alkylbenzene Sulfonate to determine its suitability for use in future neutrino detectors.</p>
-        </section>
+           <p>  If you have questions about my research or would like to get in touch,  please email me at <a href="mailto:chinyi@uw.edu">chinyi@uw.edu</a>. </p>
+          </section>
+  
 
         <section id="cv">
           <h1>CV</h1>
           <p>You can view or download my CV <a href="/Chin_Yi_Tan_PhD_CV.pdf">here (PDF)</a>.</p>
         </section>
 
-        <section id="contact">
-          <h1>Contact</h1>
-          <p>To contact me, you can get my email from <a href="https://physics.uchicago.edu/people/profile/chin-yi-tan/">my UChicago profile</a>.</p>
+
+        <section id="research">
+          <h1>Research</h1>
+          <p> As the figure below illustrates, the Milky Way is rich in structure, surrounded by various satellite galaxies and stellar streams. My research focuses on discovering these systems and comparing their populations with predictions from cold dark matter and alternative dark matter models. Below are some of my completed projects and their accompanying papers. For a more comprehensive and up-to-date list of my publications, visit <a href="https://ui.adsabs.harvard.edu/public-libraries/UYtHQtiXQpOvWFVMH7g60w">my ADS library</a>. </p>
+
+          <figure><img src="/Milky_Way.png" width="2206" height="1256" alt="Milky_Way"/></figure>  
+
+
+          <h2 id="DELVE-MW-Census">DELVE Milky Way Census</h2>
+          <p>
+            My research aims to test dark matter models by comparing their predictions
+            with the observed population of Milky Way satellite galaxies. However,
+            our current sample is incomplete with many faint and distant systems undiscovered.
+            A systematic census with well-characterized detection limits allows us
+            to account for these missing galaxies and make meaningful comparisons
+            with simulations.
+          </p>
+          <figure><img src="/Census1.png" width="2306" height="1166" alt="Census1"/></figure>  
+          <p>
+            To solve this issue, I have been involved using the DECam Local Volume Exploration (DELVE)
+            survey, which aims to Dark Energy Camera (DECam) to  coverage of the southern
+            high-galactic-latitude night to search for Milky Way dwarfs . Combining DELVE with Pan-STARRS data, I conducted the largest systematic
+            Milky Way satellite census to date, covering up to 90% of the high-galactic-latitude sky, and recovered 49 Milky Way satellites.
+          </p>
+          <p>
+            To quantify the census’s completeness, I tested how reliably the pipeline recovered simulated satellites injected into the survey data. Combining these detection probabilities with an empirical population model,
+            I estimated a total of approximately 265 Milky Way satellites with <i>M</i><sub>V</sub> ≤ 0 and inferred their completeness-corrected luminosity function and radial distribution.
+          </p>
+
+
+          <h2 id="Finding new galaxies with DELVE ">Probing the Properties of MACHOs with Ultra Faint Galaxies</h2>
+          <p>In addition to the census, we also discover new satellites using DELVE data. In particular, I have led the discovery, follow-up and publication for four satellites: Leo VI, Carina IV, Phoenix III, and DELVE 7 We obtained Keck/DEIMOS follow-up for the brightest system, Leo VI, and confirmed its dwarf-galaxy nature from the large velocity and metallicity dispersions among its member stars. For the faintest system, DELVE 7, we used deeper Magellan/IMACS imaging  to confirm its identity as  the second-faintest known Milky Way satellite, with a stellar mass of $M_\ast \approx 60 M_\odot$. </p>
+
+          <p>In additional, my studentpostbac-student Gemini I/ DELVE 8$. </p>      
+
+
+          <h2 id="Mixed Warm Dark Matter Constraints ">Probing the Properties of MACHOs with Ultra Faint Galaxies</h2>
+          <p>I set leading constraints on two-component thermal-relic warm and cold DM scenarios and on mixed cold DM with sterile neutrinos scenarios</p>
+
+          <h2 id="modelling-a-strong-gravitational-lenses">Modelling strong gravitational lenses</h2>
+          <p>I am currently building an automated pipeline to model 160 strong gravitational lenses using their HST images.
+          The model parameters obtained can be used to determine the inner slope of the dark matter profile in elliptical galaxies and aid in the measurement of the Hubble constant.</p>
+
+        <section id="zooniverse">
+          <h1>DELVE Zooniverse Project</h1>
+          <p> To aid in my in finding more dwarfs galaxies,  </p>
         </section>
+
+
       </article>
 
       <footer class="book-footer"></footer>
